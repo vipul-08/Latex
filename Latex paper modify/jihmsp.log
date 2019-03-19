@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2018.10.31)  31 OCT 2018 23:02
+entering extended mode
+**E:/JIHMSP/Latex/jihmsp.cls
+(E:/JIHMSP/Latex/jihmsp.cls
+! Undefined control sequence.
+l.4 \NeedsTeXFormat
+                   {LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
+? 
+! Emergency stop.
+l.4 \NeedsTeXFormat
+                   {LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

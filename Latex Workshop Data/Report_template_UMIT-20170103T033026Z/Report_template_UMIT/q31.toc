@@ -1,0 +1,18 @@
+\contentsline {chapter}{Abstract}{i}{Doc-Start}
+\contentsline {chapter}{List of Tables}{ii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{iii}{chapter*.3}
+\contentsline {chapter}{Nomenclature}{iv}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objectives of the Study}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Organization of the report}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Review of Literature Survey}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Amplitude Modulation}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Homomorphic filter}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Morphological Filters}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Dilation}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Opening and closing}{6}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Realisation/Implementation of the proposed (name of the system) system}{8}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion and Future scope}{9}{chapter.5}
+\contentsline {chapter}{\numberline {A}Important Terms}{10}{appendix.A}
+\contentsline {chapter}{\numberline {B}Maths}{11}{appendix.B}
+\contentsline {chapter}{References}{12}{appendix*.5}

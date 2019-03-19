@@ -1,0 +1,323 @@
+
+%% Authors: Please do not make any changes on the commands below.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,a4paper]{jihmsp}
+
+%\textheight=8.2 true in
+\setcounter{page}{1}
+\topmargin -10pt
+
+\textwidth 16cm
+\textheight 24.5cm
+
+\oddsidemargin 0cm
+\evensidemargin -0.06cm
+
+\def\currentvolume{1}
+\def\currentissue{1}
+\def\currentyear{2009}
+\def\currentmonth{April}
+\def\ppages{0--0}
+
+
+\newcommand{\BOX}{\hfill $\Box$}
+\newcommand{\NAB}{\hfill $\nabla \nabla \nabla$}
+\newcommand {\done} {\quad\vrule height4pt WIDTH4PT}
+\newcommand{\BYD}{\stackrel{\Delta}{=}}
+
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+
+\usepackage[dvips]{graphicx}
+\usepackage{epsfig}
+\usepackage{epsf}
+
+
+%% Authors: Please do not make any changes on the commands above.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Authors: Please follow the format below to fill in: paper's short running title, full title, author's name
+%%and affiliations, abstract, keywords, etc.
+
+
+\def\e{\varepsilon}
+\def\d{\delta}
+
+
+
+\title[Short Running Title]
+{Full Title of JIHMSP Template}
+
+\author[H.C. Huang, J.S. Pan and B.Y. Liao]{}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	\centerline{Hsiang-Cheh Huang}
+	\medskip
+	{\footnotesize
+		\centerline{Department of Electrical Engineering}
+		\centerline{National University of Kaohsiung}
+		\centerline{700 University Road, Kaohsiung, 811, Taiwan}
+		\centerline{hchuang@nuk.edu.tw} }
+	\medskip
+	
+	\centerline{Jeng-Shyang Pan and Bin-Yih Liao}
+	\medskip
+	{\footnotesize
+		\centerline{Department of Electronic Engineering}
+		\centerline{National Kaohsiung University of Applied Sciences}
+		\centerline{415 Chien-Kung Road, Kaohsiung, 807, Taiwan}
+		\centerline{jspan@cc.kuas.edu.tw; byliao@cc.kuas.edu.tw} }
+	\medskip
+	
+	
+	%%\centerline{Received July 2004; revised December 2004}
+	
+	%%\centerline{(Communicated by xxxx)}
+	
+	%\medskip
+	
+	\rule{15cm}{1pt}
+	
+	\begin{abstract}
+		
+		{\em Please write down the abstract of your paper here....}\\
+		{\bf Keywords:} Please write down the keywords of your paper here, such as, Watermarking, Video compression, ......
+		
+	\end{abstract}
+	
+	\rule{15cm}{1pt}
+	
+	\section{Introduction}
+	
+	Please write down the Introduction of your paper here....
+	
+	\section{Problem Statement and Preliminaries}
+	
+	Please write down your section. When you cite some references,
+	please give numbers, such as, .....In the work of~\cite{1,2,3,5}, the problem of.......
+	For more results on this topic, we refer readers to~\cite{1,4,5,7} and the references therein....
+	
+	\subsection{Several definitions and theorems}
+	Please write down your subsection.
+	
+	Examples for writing definition, lemma, theorem, corollary, example, remark.
+	
+	\begin{definition}
+		System (1) is stable if and only if....
+	\end{definition}
+	
+	\begin{lemma}
+		If system (1) is stable, then.....
+	\end{lemma}
+	
+	\begin{theorem}
+		Consider system (1) with the control law....
+	\end{theorem}
+	
+	{\bf Proof:}\ Let....
+	
+	\begin{corollary}
+		If there is no uncertainty in system (1), i.e., $\Delta A=0$, then...
+	\end{corollary}
+	
+	\begin{remark}
+		It should be noted that the result in Theorem 2.1.....
+	\end{remark}
+	
+	\begin{example}
+		Let us consider the following example....
+	\end{example}
+	
+	\begin{eqnarray}
+	&&\dot x(t)=Ax(t)+Bu(t)+B_1w(t)\\
+	&&y(t)=Cx(t)+Du(t)+D_1w(t)
+	\end{eqnarray}
+	
+	...................................
+	
+	
+	\section {Main Results}
+	
+	Here are the main results in this paper.....
+	
+	\begin{definition}
+		System (3) is stable if and only if....
+	\end{definition}
+	
+	\begin{lemma}
+		If system (3)-(4) is stable, then.....
+	\end{lemma}
+	
+	\begin{eqnarray}
+	&&\dot x(t)=Ax(t)+Bu(t)+B_1w(t)\\
+	&&y(t)=Cx(t)+Du(t)+D_1w(t)
+	\end{eqnarray}
+	
+	\begin{theorem}
+		Consider system (3) with the control law....
+	\end{theorem}
+	
+	{\bf Proof:}\ Let....
+	
+	\begin{corollary}
+		If there is no uncertainty in system (3), i.e., $\Delta A=0$, then...
+	\end{corollary}
+	
+	\begin{remark}
+		It should be noted that the result in Theorem 2.1.....
+	\end{remark}
+	
+	\begin{example}
+		Let us consider the following example....
+	\end{example}
+	.............................
+	
+	\section {Control Design}
+	In this section, we present.....
+	.....
+	
+	\begin{eqnarray}
+	&&\dot x(t)=Ax(t)+Bu(t)+B_1w(t)\\
+	&&y(t)=Cx(t)+Du(t)+D_1w(t)
+	\end{eqnarray}
+	
+	\begin{definition}
+		System (5) is stable if and only if....
+	\end{definition}
+	
+	\begin{lemma}
+		If system (5) is stable, then.....
+	\end{lemma}
+	
+	\begin{theorem}
+		Consider system (5)-(6) with the control law....
+	\end{theorem}
+	
+	{\bf Proof:}\ Let....
+	
+	\begin{corollary}
+		If there is no uncertainty in system (5)-(6), i.e., $\Delta A=0$, then...
+	\end{corollary}
+	
+	\begin{remark}
+		It should be noted that the result in Theorem 2.1.....
+	\end{remark}
+	
+	\begin{example}
+		Let us consider the following example....
+	\end{example}
+	.............................
+	
+	\section{Numerical Example}
+	
+	\begin{figure}[htbp]
+		\begin{center}
+			\psfig{file=FigureR1.eps,scale=0.8}
+			\caption{Example of figure}
+			\label{fig1}
+		\end{center}
+	\end{figure}
+	
+	\begin{table}[htbp]
+		\caption{Sample data}
+		\label{table1}
+		\begin{center}
+			\begin{tabular}{|p{1.7cm}|p{1.7cm}||p{3cm}|p{3cm}|}
+				\multicolumn{4}{c}{\vspace*{-1.3em}}\\
+				\hline %
+				\multicolumn{2}{|c||}{\scriptsize{Channel erasure probability}} & %
+				\multicolumn{1}{l|}{Watermarked image} & %
+				\multicolumn{1}{l|}{Extracted BCR\index{Bit Correct Rates (BCR)}} \\
+				\cline{1-2} %
+				\multicolumn{1}{|l|}{\(p_1\)} & \multicolumn{1}{l||}{\(p_2\)} &
+				\multicolumn{1}{l|}{quality (in dB)\index{PSNR}} &
+				\multicolumn{1}{l|}{(in \%)} \\
+				\hline \hline %
+				{0} & {0} & 32.53 & 100  \\
+				\hline %
+				{0.05} & {0.05} & 30.69 & 97.56\\
+				\hline %
+				{0.1} & {0.1} & 28.90 & 95.14  \\
+				\hline %
+				{0.25} & {0.25} & 24.59 & 88.18 \\
+				\hline %
+				{0.3} & {0.3} & 23.14 & 86.04 \\
+				\hline %
+				{0.4} & {0.4} & 21.52 & 81.46 \\
+				\hline %
+				{0.5} & {0.5} & 19.98 & 76.25  \\
+				\hline %
+				\hline %
+				0 & 1 & 26.18 & 73.34 \\
+				\hline %
+				1 & 0 & 26.09 & 80.55  \\
+				\hline %
+			\end{tabular}
+		\end{center}
+	\end{table}
+	
+	
+	\section {Conclusions}
+	
+	The conclusion of your paper is here.....
+	
+	\section*{Acknowledgment}
+	This work is partially supported by ......
+	The authors also gratefully acknowledge the helpful comments and suggestions of the reviewers,
+	which have improved the presentation.
+	
+	
+	
+	%% Authors: please follow the format below to write down references.
+	
+	
+	\begin {thebibliography}{99}
+	
+	\bibitem{1}
+	J.~S. Pan, H.~C. Huang, L.~C. Jain, and W.~C. Fang (eds.), {\em Intelligent Multimedia Data Hiding: New Directions}, Springer, Berlin-Heidelberg, Germany, 2007.
+	
+	\bibitem{2}
+	H.~C. Huang, J.~S. Pan, Y.~H. Huang, F.~H. Wang, and K.~C. Huang,
+	Progressive watermarking techniques using genetic algorithms,
+	{\em Circuits, Systems, and Signal Processing}, vol.26, no.5, pp.671--687, 2007.
+	
+	\bibitem{3}
+	J.~S. Pan, H. Luo, and Z.~M. Lu, Look-up table based reversible data hiding for error diffused halftone images, {\em INFORMATICA}, vol.18, no. 4, pp.615--628, 2007.
+	
+	\bibitem{4}
+	H.~C. Huang, J.~S. Pan, and C.~M. Chu,
+	Optimized copyright protection systems with genetic-based robust watermarking,
+	{\em Proc. of the 3rd Int'l Conference on Intelligent Information Hiding and Multimedia Signal Processing}, Kaohsiung, Taiwan, pp.II-465--II-468, 2007.
+	
+	\bibitem{5}
+	C.~C. Lai, H.~C. Huang and C.~C. Tsai,
+	Image watermarking scheme using singular value decomposition and micro-genetic algorithm,
+	{\em Proc. of the 4th Int'l Conf. on Intelligent Information Hiding and Multimedia Signal Processing}, Harbin, China, pp.239--242, 2008.
+	
+	\bibitem{6}
+	Y.~H. Chen,
+	{\em A Study on Digital Watermarking and Its Application on Network Multimedia},
+	Ph.D. Thesis, National Chiao-Tung University, Hsinchu, Taiwan, 2008.
+	
+	\bibitem{7}
+	F.~C. Chang, H.~C. Huang, and H.~M. Hang, Combined encryption and watermarking approaches for scalable multimedia coding, in {\em 5th Pacific Rim Conference on Multimedia},
+	K. Aizawa, Y. Nakamura, and S. Satoh (eds.),
+	Berlin/Heidelberg/New York, Springer-Verlag, LNCS 3333, pp.356--363, 2004.
+	
+\end{thebibliography}
+
+
+
+\end{document}
+
+

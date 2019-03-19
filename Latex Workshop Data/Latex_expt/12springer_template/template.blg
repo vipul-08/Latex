@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: template.aux
+The style file: spmpsci.bst
+Database file #1: database.bib
+You've used 2 entries,
+            2946 wiz_defined-function locations,
+            609 strings with 4771 characters,
+and the built_in function-call counts, 681 in all, are:
+= -- 47
+> -- 19
+< -- 0
++ -- 8
+- -- 6
+* -- 30
+:= -- 103
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 66
+empty$ -- 70
+format.name$ -- 7
+if$ -- 141
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 15
+newline$ -- 16
+num.names$ -- 4
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 7
+quote$ -- 0
+skip$ -- 19
+stack$ -- 0
+substring$ -- 10
+swap$ -- 25
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 4
+width$ -- 3
+write$ -- 25
